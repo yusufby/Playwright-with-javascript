@@ -37,9 +37,10 @@ const config = {
   use: {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
-    headless:true,
+    headless:false,
     screenshot : 'only-on-failure',
-    trace : 'on-first-retry'
+    trace : 'on-first-retry',
+    isMobile : true,
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
 
